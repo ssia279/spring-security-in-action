@@ -4,6 +4,9 @@ directory listing:
 - ex_01_https: initial project returns Hello with HTTPs.
 - ex_02: Custom UserDetailService and PasswordEncoder with @Bean annotation.
 - ex_03: Override endpoint authorization configruation.
+- ex_04: Set configuration with AuthenticationManagerBuilder.
+- ex_05: Override AuthenticationProvider implementation.
+- ex_06: Multiple configuration classes
 
 Steps to setup project to use HTTPs instead of HTTP
 
