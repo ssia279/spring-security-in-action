@@ -19,8 +19,11 @@ create DATABASE spring;
 where the password is from MYSQL_ROOT_PASSWORD. 
 
 To start the container:
+```
 docker start mariadbtest
+```
 
 To stop the container:
+```
 docker stop mariadbtest
-
+```
