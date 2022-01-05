@@ -12,7 +12,7 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         http.httpBasic();
 
         http.authorizeRequests()
-            .mvcMatchers("/email/{email:.*(.+@.+\\.com)}")
+            .mvcMatchers("/email/{email:.*(.+@.+.com)}")
                 .permitAll()
             .anyRequest()
                 .denyAll();
